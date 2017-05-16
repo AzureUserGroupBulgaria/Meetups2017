@@ -1,0 +1,29 @@
+@using WebApp.Models
+
+@model IEnumerable<TrumpometerEntryModel>
+
+@{
+    ViewData["Title"] = "Trumpometer";
+}
+
+<div class="row paddedContent">
+    <div class="col-md-12">
+        
+            @foreach (var item in Model)
+            {
+                <div class="trumpometerEntry">
+                    <div class="trumpometerEntry__header">
+                        <span>Text: </span><a href="@item.OriginalUrl" target="_blank"><span>@item.Text</span></a>
+                    </div>
+                    
+                    <div class="">
+                        @for (int i = 0; i < item.TrumpBadges; i++)
+                        {
+                            <img class="trumpometerEntry__badge" src="~/images/trump-thumbs-up.jpg" />
+                        }
+                    </div>
+                </div>
+            }
+        
+    </div>
+</div>

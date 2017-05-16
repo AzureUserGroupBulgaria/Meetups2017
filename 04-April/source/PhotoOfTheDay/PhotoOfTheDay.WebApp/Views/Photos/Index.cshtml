@@ -1,0 +1,25 @@
+﻿@model IEnumerable<PhotoOfTheDay.WebApp.Models.PhotoEntryViewModel>
+@{
+    ViewBag.Title = "Photos";
+}
+@section scripts {
+    @Scripts.Render("~/bundles/lightbox")
+}
+<h2>Photos of the day</h2>
+<div class="book-list container">
+    <div class="row"></div>
+    @foreach (var photoEntry in Model)
+    {
+        <div class="photoEntry col-md-6">
+            <div class="photoEntry__wrapper">
+                <div class="photoEntry__title">@photoEntry.Title</div>
+                <div class="photoEntry__thumbnail">
+                    <a href="@photoEntry.ImageUrl" target="_blank" data-lightbox="@photoEntry.Id" data-title="@photoEntry.Title">
+                        <img class="photoEntry__thumbnail__image" src="@photoEntry.ImageUrl" />
+                    </a>
+                </div>
+                <div class="photoEntry__description">@photoEntry.Description</div>
+            </div>
+        </div>
+    }
+</div>
