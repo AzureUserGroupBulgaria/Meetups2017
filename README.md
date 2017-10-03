@@ -9,7 +9,10 @@ Resources and slides from sessions in 2017.
 3. March - No meeting
 4. April - [Going Serverless with Azure Functions](04-April/)
 5. May - [Peer to peer lending with Microsoft Azure](05-May/)
-5. June - [Securing Sensitive Data in Azure](06-June/)
+6. June - [Securing Sensitive Data in Azure](06-June/)
+7. July - Azure Beers
+8. August - Azure Beers
+9. Септембер - [Azure Lightning Talks 01](09-September/)
 
 ## Теми
 
@@ -18,7 +21,10 @@ Resources and slides from sessions in 2017.
 3. Март - Нямаше среща
 4. Април - [Сървърлес с функции в Ажур (Azure Functions)](04-April/)
 5. Май - [Peer to peer кредитиране с Microsoft Azure](05-May/)
-5. Юни - [Защита на чувствителни данни в Ажур](06-June/)
+6. Юни - [Защита на чувствителни данни в Ажур](06-June/)
+7. Юли - Ажур Бири
+8. Август - Ажур Бири
+6. Септември - [Azure Lightning Talks 01](09-September/)
 
 ## Azure User Group Bulgaria
 
