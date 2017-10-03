@@ -12,7 +12,7 @@ Resources and slides from sessions in 2017.
 6. June - [Securing Sensitive Data in Azure](06-June/)
 7. July - Azure Beers
 8. August - Azure Beers
-9. Септембер - [Azure Lightning Talks 01](09-September/)
+9. September - [Azure Lightning Talks 01](09-September/)
 
 ## Теми
 
