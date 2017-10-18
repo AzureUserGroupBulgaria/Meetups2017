@@ -1,0 +1,18 @@
+{
+    "properties": {
+        "mode": "all",
+        "displayName": "Allowed locations",
+        "description": "Restrict resource location to Australia",
+        "policyRule": {
+            "if": {
+                "not": {
+                    "field": "location",
+                    "in": ["Australia East", "Australia Southeast"]
+                }
+            },
+            "then": {
+                "effect": "deny"
+            }
+        }
+    }
+}
