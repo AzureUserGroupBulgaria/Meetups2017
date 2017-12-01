@@ -14,6 +14,7 @@ Resources and slides from sessions in 2017.
 8.  August - Azure Beers
 9.  September - [Azure Lightning Talks 01](09-September/)
 10. October - [Building event-based applications with Azure Event Grid](10-October/)
+11. November - [Getting started with Azure Data Factory](11-November/)
 
 ## Теми
 
@@ -27,6 +28,7 @@ Resources and slides from sessions in 2017.
 8.  Август - Ажур Бири
 9.  Септември - [Azure Lightning Talks 01](09-September/)
 10. October - [Building event-based applications with Azure Event Grid](10-October/)
+11. November - [Getting started with Azure Data Factory](11-November/)
 
 ## Azure User Group Bulgaria
 
